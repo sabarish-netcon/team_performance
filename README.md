@@ -1,7 +1,5 @@
-`Key Performance Indicators`
+##`Key Performance Indicators`
 This document contains the complete information about KPI
-
-[[_TOC_]]
 
 ## NOTE
 
@@ -140,7 +138,7 @@ have.</li>
 </tr>
 <tr>
 <td>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLScsw1DbEfZEl4UIXHDMzhkpOmAO_YK_vn7wYbBVq_I8nVrmKQ/viewform">Planned hours</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScsw1DbEfZEl4UIXHDMzhkpOmAO_YK_vn7wYbBVq_I8nVrmKQ/viewform" target="_blank">Planned hours</a>
 </td>
 <td>
 <ul>
@@ -153,7 +151,7 @@ have.</li>
 </tr>
 <tr>
 <td>
-<a href="https://docs.google.com/forms/d/15wk8Drolm-4zoQix8dkfCEPdSZSXbjvtsrEMYdIceAs/viewform">Actual hours</a>
+<a href="https://docs.google.com/forms/d/15wk8Drolm-4zoQix8dkfCEPdSZSXbjvtsrEMYdIceAs/viewform" target="_blank">Actual hours</a>
 </td>
 <td>
 <ul>
@@ -166,7 +164,7 @@ have.</li>
 </tr>
 <tr>
 <td>
-<a href="https://docs.google.com/forms/d/19Vib04CtlNdj_q_9n8q5alMwj9jkriqlmwkOWx4Abh8/viewform">Knowledge Sharing</a>
+<a href="https://docs.google.com/forms/d/19Vib04CtlNdj_q_9n8q5alMwj9jkriqlmwkOWx4Abh8/viewform" target="_blank">Knowledge Sharing</a>
 </td>
 <td>
 <ul>
@@ -179,7 +177,7 @@ have.</li>
 </tr>
 <tr>
 <td>
-<a href="https://docs.google.com/forms/d/1D_hX03Nl-JXyYZSwrNXrxGoM0-oBE6wcOOpu0TNFV20/viewform">Developing tools and Automation
+<a href="https://docs.google.com/forms/d/1D_hX03Nl-JXyYZSwrNXrxGoM0-oBE6wcOOpu0TNFV20/viewform" target="_blank">Developing tools and Automation
 </a>
 </td>
 <td>
