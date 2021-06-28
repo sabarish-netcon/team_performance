@@ -1,229 +1,194 @@
-# KPI
-## _Let us track our performance_
-
+`Key Performance Indicators`
 This document contains the complete information about KPI
 
+[[_TOC_]]
+
+## NOTE
+
+- This is the starting step.
+- If you face any issues, Please contact us.
+- Any improvements or suggestions is greatly appreciated.
+
 ## KPI Definition
-| Entity        | Criteria           |
-| ------------- |:-------------:|
-| Work completion time (Developers)      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
 
 <table>
   <tbody>
     <tr>
-      <th>Tables</th>
-      <th align="center">Are</th>
-      <th align="right">Cool</th>
+      <th>Entity</th>
+      <th>Criteria</th>
     </tr>
     <tr>
-      <td>col 3 is</td>
-      <td align="center">right-aligned</td>
-      <td align="right">$1600</td>
-    </tr>
-    <tr>
-      <td>col 2 is</td>
-      <td align="center">centered</td>
-      <td align="right">$12</td>
-    </tr>
-    <tr>
-      <td>zebra stripes</td>
-      <td align="center">are neat</td>
-      <td align="right">$1</td>
-    </tr>
-    <tr>
+      <td>Work completion time (Developers)</td>
       <td>
         <ul>
-          <li>item1</li>
-          <li>item2</li>
+          <li>This is related to development time in project.</li>
+<li>This is related to development time in project.</li>
+<li>Calculated based on the estimated hours and actual hours.</li>
+<li>Ideally, it should be 100%. Based on the complexity or skill set of the developers, we can
+set the benchmark in 98%, 95% or 90% so on.</li>
+<li>This should be calculated on every release.</li>
+<li>This has to be calculated team wise.</li>
         </ul>
-      </td>
-      <td align="center">See the list</td>
-      <td align="right">from the first column</td>
+</td>
+    </tr>
+    <tr>
+      <td>Work completion time (Testers)</td>
+      <td>
+<ul>
+<li>This related to executing the complete Software Testing Life Cycle.</li>
+<li>Calculated based on the estimated hours and actual hours</li>
+<li>Ideally, it should be 100%. Based on the complexity or skill set of the developers, we can set the benchmark in 98%, 95% or 90% so on.</li>
+<li>This should be calculated on every release.</li>
+</ul>
+</td>
+    </tr>
+    <tr>
+      <td>Work quality (Developers)</td>
+      <td>
+<ul>
+<li>This score is based on the valid bugs reported while the project is with QA.</li>
+<li>Ideally there should be 0 bugs. But this count can be set based on the complexity, skills we
+have.</li>
+<li>It is kind of testers assessing the developer.</li>
+<li>Number of features completed (Bench / Trainees)</li>
+</ul>
+</td>
+    </tr>
+    <tr>
+      <td>Work quality (Testers)</td>
+      <td>
+<ul>
+<li>This score is based on the valid bugs reported while UAT and production.</li>
+<li>Ideally there should be 0 bugs. But this count can be set based on the complexity, skills we have.</li>
+<li>It is kind of clients/product owners assessing the tester’s work.</li>
+</ul>
+</td>
+    </tr>
+    <tr>
+      <td>Knowledge sharing</td>
+      <td>
+<ul>
+<li>Presenting topics on internal tech meeting.</li>
+<li>Sharing their project / new learnings among the team.</li>
+<li>Helping team members when they stuck.</li>
+<li>Internal projects reusable code.</li>
+<li>Guiding Juniors.</li>
+</ul>
+</td>
+    </tr>
+    <tr>
+      <td>Learning new skill</td>
+      <td>
+<ul>
+<li>This is for people are in bench.</li>
+<li>User should get what is required for org’s growth and start developing the skill and they should be master in it.</li>
+</ul>
+</td>
+    </tr>
+    <tr>
+      <td>Open source contribution</td>
+      <td>
+<ul>
+<li>Blogs/videos: 4 per month for trainees, people are on bench. Others minimum 1.</li>
+<li>Helping people by answering or asking valid questions online forum like (stack overflow): 10 per month for trainees/people are in bench. Others minimum 2.</li>
+<li>Writing plugins/contributing to open source projects: for seniors are in bench 4 per quarter, other seniors 2 per year minimum.</li>
+</ul>
+</td>
+    </tr>
+    <tr>
+      <td>Soft skill</td>
+      <td>
+<ul>
+<li>Communication skill.</li>
+<li>Taking ownership.</li>
+<li>Taking initiatives.</li>
+<li>Attire.</li>
+<li>Comply with system.</li>
+</ul>
+</td>
     </tr>
   </tbody>
 </table>
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+## KPI Calculations
 
-## Features
+<table>
+<thead><tr><th>Type</th><th>Criteria</th><th>Percentage</th><th>Remarks</th></tr></thead><tbody>
+ <tr><td>Trainees</td><td>Technical assessment</td><td>50%</td><td>&nbsp;</td></tr>
+ <tr><td>Trainees</td><td>Knowledge sharing</td><td>40%</td><td>Open source 25, Internal team 15</td></tr>
+ <tr><td>Trainees</td><td>Soft skill</td><td>10%</td><td>&nbsp;</td></tr>
+ <tr><td>Developers (Project)</td><td>Work ethics</td><td>50%</td><td>Completion time 25, Quality 25</td></tr>
+ <tr><td>Developers (Project)</td><td>Knowledge sharing</td><td>40%</td><td>Open source 25, Internal team 15</td></tr>
+ <tr><td>Developers (Project)</td><td>Soft skill</td><td>10%</td><td>&nbsp;</td></tr>
+ <tr><td>Developers (Bench)</td><td>Work ethics</td><td>50%</td><td>Developing tools 25, Automation 25</td></tr>
+ <tr><td>Developers (Bench)</td><td>Knowledge sharing</td><td>40%</td><td>Open source 25, Internal team 15</td></tr>
+ <tr><td>Developers (Bench)</td><td>Soft skill</td><td>10%</td><td>&nbsp;</td></tr>
+ <tr><td>Testers</td><td>Work ethics</td><td>50%</td><td>Completion time 25, Quality 25</td></tr>
+ <tr><td>Testers</td><td>Knowledge sharing</td><td>40%</td><td>Open source 25, Internal team 15</td></tr>
+ <tr><td>Testers</td><td>Soft skill</td><td>10%</td><td></td></tr>
+</tbody></table>
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+## KPI Measurement
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+### To start with we are going to measure the following
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+<table>
+<tr>
+<th>Type with link</th>
+<th>When to fill</th>
+<th>Impact (if not filled)</th>
+</tr>
+<tr>
+<td>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScsw1DbEfZEl4UIXHDMzhkpOmAO_YK_vn7wYbBVq_I8nVrmKQ/viewform">Planned hours</a>
+</td>
+<td>
+<ul>
+<li>Users to fill the planned hours on the first day of the sprint (If following sprint) or first day of the week (If not following sprint).</li>
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
+<li>For the first time, it has to be filled on or before 29th June 2021.</li>
+</ul>
+</td>
+<td>Failing to fill the form will have impact in the soft skill score.</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.google.com/forms/d/15wk8Drolm-4zoQix8dkfCEPdSZSXbjvtsrEMYdIceAs/viewform">Actual hours</a>
+</td>
+<td>
+<ul>
+<li>Users to fill the actual hours for everyday.</li>
 
-## Tech
+<li>Please ignore the old timesheet form and start using this form.</li>
+</ul>
+</td>
+<td>Failing to fill the form will have impact in the soft skill score.</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.google.com/forms/d/19Vib04CtlNdj_q_9n8q5alMwj9jkriqlmwkOWx4Abh8/viewform">Knowledge Sharing</a>
+</td>
+<td>
+<ul>
+<li>Users to fill this form as and when they have conducted a internal knowledge sharing or uploaded blog or vlog or other knowledge sharing.</li>
 
-Dillinger uses a number of open source projects to work properly:
+<li>Please fill your recently completed activities (in June 2021).</li>
+</ul>
+</td>
+<td>Failing to fill the form will have impact in the soft skill score.</td>
+</tr>
+<tr>
+<td>
+<a href="https://docs.google.com/forms/d/1D_hX03Nl-JXyYZSwrNXrxGoM0-oBE6wcOOpu0TNFV20/viewform">Developing tools and Automation
+</a>
+</td>
+<td>
+<ul>
+<li>Users to fill this form as and when they have developed tools and any snippet which can be reused.</li>
 
-- [AngularJS] - HTML enhanced for web apps!
-- [Ace Editor] - awesome web-based text editor
-- [markdown-it] - Markdown parser done right. Fast and easy to extend.
-- [Twitter Bootstrap] - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [Express] - fast node.js network app framework [@tjholowaychuk]
-- [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-## Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-cd dillinger
-npm i
-node app
-```
-
-For production environments...
-
-```sh
-npm install --production
-NODE_ENV=production node app
-```
-
-## Plugins
-
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-## Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantaneously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
-(optional) Third:
-
-```sh
-karma test
-```
-
-#### Building for source
-
-For production release:
-
-```sh
-gulp build --prod
-```
-
-Generating pre-built zip archives for distribution:
-
-```sh
-gulp build dist --prod
-```
-
-## Docker
-
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the
-Dockerfile if necessary. When ready, simply use the Dockerfile to
-build the image.
-
-```sh
-cd dillinger
-docker build -t <youruser>/dillinger:${package.json.version} .
-```
-
-This will create the dillinger image and pull in the necessary dependencies.
-Be sure to swap out `${package.json.version}` with the actual
-version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on
-your host. In this example, we simply map port 8000 of the host to
-port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
-```
-
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
-
-Verify the deployment by navigating to your server address in
-your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
-## License
-
-MIT
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+<li>Please fill your recently completed activities (in June 2021).</li>
+</ul>
+</td>
+<td>Failing to fill the form will have impact in the soft skill score.</td>
+</tr>
+<table>
