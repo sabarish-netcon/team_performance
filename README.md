@@ -147,8 +147,7 @@ This document contains the complete information about KPI
     <td>
       <ul>
         <li>Users to fill the planned hours on the first day of the sprint (If following sprint) or first day of the week (If not following sprint).</li>
-
-        <li>For the first time, it has to be filled on or before 29th June 2021.</li>
+<li>For the first time, it has to be filled on or before 29th June 2021.</li>
       </ul>
     </td>
     <td>Failing to fill the form will have impact in the soft skill score.</td>
